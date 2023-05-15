@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productos>
+	<producto>
+		<codigo>P-001</codigo>
+		<categoria>CAT-003</categoria>
+		<nombre>Impresora</nombre>
+		<marca>Epson</marca>
+		<descripcion>Impresora Laser</descripcion>
+		<precio>1350.90</precio>
+		<stock>5</stock>
+		<imagen>impresora_epson.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-002</codigo>
+		<categoria>CAT-005</categoria>
+		<nombre>Scanner</nombre>
+		<marca>Logitech</marca>
+		<descripcion>Scanner</descripcion>
+		<precio>399.00</precio>
+		<stock>10</stock>
+		<imagen>escaner.png</imagen>
+	</producto>
+	<producto>
+		<codigo>P-003</codigo>
+		<categoria>CAT-006</categoria>
+		<nombre>Teclado</nombre>
+		<marca>Microsoft</marca>
+		<descripcion></descripcion>
+		<precio>85.90</precio>
+		<stock>15</stock>
+		<imagen>teclado_micro.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-004</codigo>
+		<categoria>CAT-002</categoria>
+		<nombre>Disco Duro 500 GB</nombre>
+		<marca>Western Digital</marca>
+		<descripcion>Disco duro mecanico</descripcion>
+		<precio>199.00</precio>
+		<stock>15</stock>
+		<imagen>DiscoDuro.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-005</codigo>
+		<categoria>CAT-002</categoria>
+		<nombre>Disco Duro 1 TB</nombre>
+		<marca>Samsung</marca>
+		<descripcion>Disco duro solido M2</descripcion>
+		<precio>350.00</precio>
+		<stock>18</stock>
+		<imagen>DiscoSansu.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-006</codigo>
+		<categoria>CAT-007</categoria>
+		<nombre>Laptop Core i5 10ma Gen</nombre>
+		<marca>HP</marca>
+		<descripcion></descripcion>
+		<precio>3500.00</precio>
+		<stock>12</stock>
+		<imagen>i5.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-007</codigo>
+		<categoria>CAT-007</categoria>
+		<nombre>Laptop Core i7 12ma Gen</nombre>
+		<marca>Acer</marca>
+		<descripcion>Laptop Gamer Acer Predator</descripcion>
+		<precio>5900.00</precio>
+		<stock>8</stock>
+		<imagen>i7.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-008</codigo>
+		<categoria>CAT-001</categoria>
+		<nombre>Laptop Raizen 5600G</nombre>
+		<marca>Lenovo</marca>
+		<descripcion></descripcion>
+		<precio>4580.00</precio>
+		<stock>19</stock>
+		<imagen>lenovo.jpg</imagen>
+	</producto>
+	<producto>
+		<codigo>P-009</codigo>
+		<categoria>CAT-004</categoria>
+		<nombre>Camara Web 720</nombre>
+		<marca>Logitech</marca>
+		<descripcion></descripcion>
+		<precio>120.00</precio>
+		<stock>25</stock>
+		<imagen>720logi.png</imagen>
+	</producto>
+	<producto>
+		<codigo>P-010</codigo>
+		<categoria>CAT-004</categoria>
+		<nombre>Camara Web 1080</nombre>
+		<marca>Acer</marca>
+		<descripcion>Laptop Gamer Acer Predator</descripcion>
+		<precio>190.00</precio>
+		<stock>4</stock>
+		<imagen>1080acer.jpg</imagen>
+	</producto>
+</productos>

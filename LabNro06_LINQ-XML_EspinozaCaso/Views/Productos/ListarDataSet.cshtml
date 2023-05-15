@@ -1,0 +1,58 @@
+﻿@using LabNro06_LINQ_XML_EspinozaCaso.Models;
+@model IEnumerable<LabNro06_LINQ_XML_EspinozaCaso.Models.ClsProducto>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListarDataSet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center"><b>Listar Productos con DataSet</b></h1>
+                <br />
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Categoria</th>
+                            <th>Producto</th>
+                            <th>Marca</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                            <th>Stock</th>
+                            <th>Condicion</th>
+                            <th>Imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var p in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(mi => p.codigo)</td>
+                                <td>@Html.DisplayFor(mi => p.categoria)</td>
+                                <td>@Html.DisplayFor(mi => p.nombre)</td>
+                                <td>@Html.DisplayFor(mi => p.marca)</td>
+                                <td>@Html.DisplayFor(mi => p.descripcion)</td>
+                                <td>@Html.DisplayFor(mi => p.precio)</td>
+                                <td>@Html.DisplayFor(mi => p.stock)</td>
+                                <td></td>
+                                <td>
+                                    <img src="~/Uploads/@Html.DisplayFor(mi => p.imagen)" width="80" height="80" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

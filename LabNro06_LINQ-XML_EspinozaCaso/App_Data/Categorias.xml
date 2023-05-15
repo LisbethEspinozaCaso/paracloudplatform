@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categorias>
+	<categoria>
+		<codigo>CAT-001</codigo>
+		<nombre>Laptops</nombre>
+	</categoria>
+	<categoria>
+		<codigo>CAT-002</codigo>
+		<nombre>Discos Duros</nombre>
+	</categoria>
+	<categoria>
+		<codigo>CAT-003</codigo>
+		<nombre>Impresoras</nombre>
+	</categoria>
+	<categoria>
+		<codigo>CAT-004</codigo>
+		<nombre>WebCams</nombre>
+	</categoria>
+	<categoria>
+		<codigo>CAT-005</codigo>
+		<nombre>Scanners</nombre>
+	</categoria>
+	<categoria>
+		<codigo>CAT-006</codigo>
+		<nombre>Teclados</nombre>
+	</categoria>
+	<categoria>
+		<codigo>CAT-007</codigo>
+		<nombre>Computadoras</nombre>
+	</categoria>
+</categorias>
